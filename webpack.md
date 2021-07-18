@@ -18,3 +18,4 @@
 
 
 ##  安装webpack安装在开发依赖环境
+>>  dependencies
