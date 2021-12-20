@@ -1,3 +1,13 @@
-import  {add,mul} from "./math"
-console.log(add(12,12));
-console.log(mul(12,12));
+import { add, mul } from "./js/math";
+
+require("./css/index.css");
+require("./css/special.less");
+
+import Vue from "vue";
+
+const app = new Vue({
+  el: "#app",
+  data: {
+    message: "小明",
+  },
+});
